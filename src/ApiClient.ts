@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { messageApi } from '@xmtp/proto'
 import { NotifyStreamEntityArrival } from '@xmtp/proto/ts/dist/types/fetch.pb'
 import { retry, sleep, toNanoString } from './utils'
