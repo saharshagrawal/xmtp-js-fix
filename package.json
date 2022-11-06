@@ -1,5 +1,5 @@
 {
-  "name": "@xmtp/xmtp-js",
+  "name": "@xmtp/xmtp-js-fix",
   "version": "0.0.0-development",
   "description": "XMTP client SDK for interacting with XMTP networks.",
   "main": "dist/cjs/src/index.js",
