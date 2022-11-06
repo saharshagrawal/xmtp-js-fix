@@ -3,7 +3,7 @@ import { NotifyStreamEntityArrival } from '@xmtp/proto/ts/dist/types/fetch.pb'
 import { retry, sleep, toNanoString } from './utils'
 import AuthCache from './authn/AuthCache'
 import { Authenticator } from './authn'
-import { Headers, AbortController } from 'node-fetch'
+import { Headers } from 'node-fetch'
 
 import { version } from '../package.json'
 export const { MessageApi, SortDirection } = messageApi
